@@ -6,6 +6,8 @@ import Home from "../pages/Home";
 import Products from "../pages/Products";
 import Users from "../pages/Users";
 import Login from "../pages/Login";
+import "../styles/global.scss"
+
 
 // function to handle structure of layout
   export const Layout = () => {
