@@ -1,15 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
 .navbar {
   width: 100%;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-family: "Inter",sans-serif;
 
   .logo {
     display: flex;
     align-items: center;
     font-weight: bold;
     gap: 10px;
+
   }
 
   // icons in navbar

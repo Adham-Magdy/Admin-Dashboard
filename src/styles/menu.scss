@@ -1,0 +1,28 @@
+@import "./variables.scss";
+.menu{
+    .item{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .title{
+        font-size: 14px;
+        font-weight: 200;
+        color: $soft-color;
+    }
+    .list-item{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        &:hover{
+            background-color: $soft-bg;
+        }
+    }
+    .breaker{
+        opacity: 0.1;
+    }
+}

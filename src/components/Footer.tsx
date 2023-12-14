@@ -1,8 +1,9 @@
-
+import "../styles/footer.scss"
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div className="footer">
+      <span>Admin Dashboard</span>
+      <span>React Admin Dashboard</span>
     </div>
   )
 }

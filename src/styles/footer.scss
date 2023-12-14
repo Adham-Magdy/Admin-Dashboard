@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-bottom: 5px;
+
+    span{
+        &:first-child{
+            font-weight: bold;
+            color: lightcoral;
+        }
+        &:last-child{
+            font-size: 14px;
+        }
+    }
+}
